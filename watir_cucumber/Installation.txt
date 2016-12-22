@@ -1,0 +1,15 @@
+1. install ruby
+2. run the below commands in console
+gem install watir
+gem install cucumber
+gem install rspec
+gem install syntax
+ 
+copy chrome driver in the ruby installed folder (ruby\bin)
+
+execution command:
+
+copy the Automation folder in C: drive
+got to C:\watir_cucumber in console
+run the below command
+cucumber features --format html --out reports.html
